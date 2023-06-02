@@ -1,0 +1,13 @@
+matplotlib
+numpy==1.19.5
+Pillow
+pyparsing
+scikit-learn==0.24.2
+scipy==1.5.4
+six
+sklearn==0.0
+tqdm
+pyyaml
+bunch
+gurobipy==9.1.2
+h5py

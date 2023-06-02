@@ -1,0 +1,40 @@
+description: "HCAS slice"
+adaptive_alpha: False
+adaptive_basis: False
+adaptive_eps: False
+adv_attack: False
+alpha: 0.037
+check_sound: False
+conv: False
+dataset: HCAS_p0_t0
+dilation_new_base: 20
+domain: chzono
+double: True
+eps: 0.04
+explicit: -1
+fixed_point_init: True
+hidden: 100
+iters: 300
+joint_projection: True
+kernel_x: 6
+log: logs/HCAS_p0_t0_100_m20_pr_035_wid10_jp1_slice_long_superfine.txt
+m: 20
+no_box_term: False
+number_verifications: 100
+optimize_slopes: 0
+path: models/HCAS_p0_t0_mon_h100_m20.0.pt
+peaceman_rachford: True
+post_proj_dil: 20
+pre_proj_dil: 10
+proj_start: 10
+require_contained: False
+stride_x: 3
+switch_to_fwbw: None
+verbose: False
+widening_iter: -1
+verify_range: True
+range_x: [-5000.0, 25000.0]
+range_y: [-10000.0, 20000.0]
+range_psi: [-90.5, -89.5]
+range_depth: 6
+

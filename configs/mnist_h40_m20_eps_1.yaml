@@ -1,0 +1,40 @@
+description: "mnist h 40 m 20 eps 0.1"
+adaptive_alpha: True
+adaptive_basis: False
+adaptive_eps: False
+adv_attack: True
+alpha: 0.1
+check_sound: False
+conv: False
+dataset: mnist
+dilation_new_base: 30
+domain: chzono
+double: True
+eps: 0.1
+explicit: -1
+fixed_point_init: True
+hidden: 40
+iters: 500
+joint_projection: True
+kernel_x: 6
+log: logs/mnist_40_m20_e10_pr_1_sfwbw_aa_wid-1_jp1_os2.txt
+m: 20
+max_eps: 0.03137254901960784
+no_box_term: False
+number_verifications: 100
+optimize_slopes: 2
+path: models/mon_h40_m20.0.pt
+peaceman_rachford: True
+post_proj_dil: 50
+pre_proj_dil: 3
+proj_start: 3
+require_contained: False
+stride_x: 3
+switch_to_fwbw: 0.033
+verbose: False
+widening_iter: -1
+verify_range: False
+range_x: [0., 0.]
+range_y: [0., 0.]
+range_psi: [0., 0.]
+range_depth: 0
